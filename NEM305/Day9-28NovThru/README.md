@@ -1,0 +1,1 @@
+mongoose is a node.js library to manage mongoDb via node.js

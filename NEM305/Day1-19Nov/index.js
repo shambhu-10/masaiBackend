@@ -17,28 +17,45 @@ const fs = require("fs")
 
 // console.log(data) 
 
-const data2 = "hello shivam"
+const data2 = "hello lavanya"
 
 
 // template for writing in a file 
-// function writeFileSync(path, data, encoding, callback) {
-//     const data = someHowWriteFile(path, data)
-//     callback(erro, data)
-// }
+function writeFileSync(path, data, encoding, callback) {
+    const data = someHowWriteFile(path, data)
+    callback(erro, data)
+}
 
-fs.writeFileSync("newdata.txt", data2, "utf-8")          // if u'll remove Sync it'll become syncronus nd always add a callback fun at end
+// fs.writeFileSync("data.txt", data2, "utf-8")          // if u'll remove Sync it'll become syncronus nd always add a callback fun at end
 
-// fs.appendFileSync("newdata.txt", "\nappended data", "utf-8")
+// let data3 = "\nhello lavanya"
+// fs.appendFileSync("data.txt", data3, "utf-8")           // if the file is not present it will create a new file nd will appen
 
-const data3 = "hi prab"
+// const data3 = "hi prab"
 
-fs.writeFileSync("data3.txt", data3, "utf-8")
+// let data = fs.readFileSync("newdata.txt", "utf-8", )
+// console.log(data)
 
-fs.appendFileSync("data3.txt","\nlorem ipsum", "utf-8" )
+// // read the blog -> never block event 
 
-// read the blog -> never block event 
+// console.log("Hi")
 
-console.log("Hi")
+
+// for deleting a file
+// fs.unlink(path, callback)
+
+// fs.unlink("data.txt", (err) => {
+//     if(err) {
+//         console.log("error in deleting the filie");
+        
+//     }
+//     console.log("file got deleted");
+    
+// })
+
+// console.log("file deleted");
+
+
 
 
 

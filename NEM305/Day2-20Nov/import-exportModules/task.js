@@ -31,6 +31,11 @@ function sub(a, b) {
     return a-b
 }
 
-module.exports = {add, sub}     // u can't write module.exports twice only once and pass the fun to exports
+function square(num) {
+    return num*num
+}
+
+module.exports = square
+// module.exports = {add, sub}     // u can't write module.exports twice only once and pass the fun to exports
 
 // we can also export variable and other things also

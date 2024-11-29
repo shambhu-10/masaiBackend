@@ -1,4 +1,4 @@
-const fs = require("fs")
+// const fs = require("fs")
 
 // three types of modules:
 // 1. Custom                - made by u
@@ -44,11 +44,17 @@ function divide(a, b) {
 
 // --------------------------------------------------------
 
-const {add, sub} = require("./task")        //importing two fun,  add and sub are two fun in the task.js, nd we are destructuring here
+// const {add, sub} = require("./task")        //importing two fun,  add and sub are two fun in the task.js, nd we are destructuring here
+
+// console.log("Addition:", add(3,3))
+// console.log("subtraction:", sub(3,3))
 
 
-console.log("Addition:", add(3,3))
-console.log("subtraction:", sub(3,3))
+// import square from "./task.js"       //not a good way to import
+
+const square = require("./task")
+console.log("square", square(4));
+
 
 
 

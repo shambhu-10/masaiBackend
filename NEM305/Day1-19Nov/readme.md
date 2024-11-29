@@ -27,7 +27,7 @@ Rules for classes ->
 Mongo - database
 Express - Server
 Node - runtime/backend
-Reac - frontend
+React - frontend
 
 it'll happen that u'll forget the mongo after learing express, it happens, but u have to keep practicing by that only u'll remeber all the things
 

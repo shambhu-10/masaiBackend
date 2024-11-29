@@ -3,5 +3,16 @@
     "express": "^4.21.1",
     "is-even": "^1.0.0",
     "is-odd": "^3.0.1"
-  }
+  },
+  "name": "import-exportmodules",
+  "version": "1.0.0",
+  "description": "break the promblem in its smallest part",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
